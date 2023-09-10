@@ -1,0 +1,20 @@
+{
+  "name": "quickstart",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist && echo 'Done.'",
+    "start": "bun --hot run index.ts",
+    "dev": "bun server.ts"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}
